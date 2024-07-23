@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 21px 25px;
+}
+
+.part-1 {
+    display: flex;
+    gap: 14px;
+    align-items: start;
+}
+
+.user-icon {
+    height: 46px;
+    width: 46px;
+}
+
+.down-arrow {
+    height: 26px;
+    width: 26px;
+    padding-top: 5px;
+}
+
+.user-location-icon {
+    height: 13px;
+    width: 11px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+
+.user-location {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-location p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.menu {
+    height: 44px;
+    width: 44px;
+}
+
+.user-data {
+    background-color: #FFD800;
+    padding: 28px 23px;
+}
+
+.main-container {
+    background-color: #242424;
+    padding: 20px;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.username-container {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    background-color: #6E6E6E;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 4px;
+}
+
+.username-container p,
+.schoolname-container p {
+    padding: 0 2px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    background-color: #383838;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.schoolname-container {
+    display: flex;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    background-color: #6E6E6E;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 3px 8px;
+}
+
+.logo {
+    height: 18px;
+    width: 18px;
+}
